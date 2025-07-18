@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #02023e;
+}
+
+input{
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.wheel{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    border: none;
+}
+
+.info{
+    background-color: #000000;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
